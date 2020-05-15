@@ -67,9 +67,6 @@ class SearchBot:
     # ).send_keys(self.password)
     # sleep(1)
 
-  #   # delete password from temporary variable
-  #   self.password = None
-
 
 
 
