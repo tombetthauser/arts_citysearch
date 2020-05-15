@@ -11,9 +11,34 @@ class SearchBot:
     self.driver = webdriver.Chrome()
     self.galleries_list = []
     self.driver.get("https://maps.google.com")
+    self.continue_search = True
     os.system('clear')
     print(f"\nNew SearchBot instantiated 🌱\nGoogle maps opened and ready to begin...")
     sleep(2)
+
+  # def run_search(self, area=None):
+
+  def check_next(self):
+    print("\nChecking for existance of next button...")
+    try:
+      self.driver.find_element_by_class_name("n7lv7yjyC35__button-next-icon")
+      self.continue_search = True
+      print(f"Status of self.continue_search: {self.continue_search}")
+      print(f"Function check_next successfully completed ✓")
+      return False
+    except:
+      self.continue_search = False
+      print(f"Status of self.continue_search: {self.continue_search}")
+      print(f"Function check_next successfully completed ✓")
+      return True
+
+  def click_next(self):
+    print(f"\nInitiating click_next function...")
+    nextbutton_class = "n7lv7yjyC35__button-next-icon"
+    next_button = self.driver.find_element_by_class_name(nextbutton_class)
+    next_button.click()
+    print(f"Function click_next successfully completed ✓")
+    sleep(3)
 
   def search_google(self, area=None):
     # fill and runin search
@@ -83,6 +108,8 @@ class SearchBot:
     #   sleep(1)
 
 
-testbot = SearchBot("San Francisco, CA")
-testbot.search_google()
-testbot.retrieve_list()
+testbot = SearchBot()
+testbot.search_google("San Francisco, CA")
+while (True):
+  testbot.retrieve_list()
+  testbot.click_next()
