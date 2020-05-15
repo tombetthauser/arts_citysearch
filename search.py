@@ -110,6 +110,6 @@ class SearchBot:
 
 testbot = SearchBot()
 testbot.search_google("San Francisco, CA")
-while (True):
+while (testbot.continue_search == True):
   testbot.retrieve_list()
   testbot.click_next()
