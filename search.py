@@ -61,14 +61,6 @@ class SearchBot:
       inner_text = self.driver.execute_script("return arguments[0].innerText;", ele)
       self.galleries_list.append(ele)
       print(f"galleries_list: {len(self.galleries_list)} -- {inner_text}")
-    # # fill in password
-    # login_pass = self.driver.find_element_by_xpath(
-    #     "/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input"
-    # ).send_keys(self.password)
-    # sleep(1)
-
-
-
 
 testbot = SearchBot()
 testbot.search_google("San Francisco, CA")
