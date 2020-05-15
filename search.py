@@ -10,6 +10,8 @@ class SearchBot:
     self.area = area
     self.driver = webdriver.Chrome()
     self.galleries_list = []
+    self.galleries_queue = []
+    self.galleries_dict = {}
     self.driver.get("https://maps.google.com")
     self.continue_search = True
     os.system('clear')
@@ -22,8 +24,23 @@ class SearchBot:
     self.search_google("San Francisco, CA")
     while (self.continue_search == True):
       self.retrieve_list()
+      self.empty_queue()
       self.click_next()
     print("\nEnd of search loop reached, search complete 👍\n")
+
+  def empty_queue(self):
+    print('\nInitiating empty_queue function...')
+    for gallery_name in self.galleries_queue:
+      xpath = f'//span[text()="{gallery_name}"]'
+      element = self.driver.find_element_by_xpath(xpath)
+      # driver.find_element(By.XPATH, f'//span[text()="{gallery_name}"]')
+      element.click()
+      sleep(1)
+      back_link = self.driver.find_element_by_xpath("//span[text()='Back to results']")
+      back_link.click()
+      sleep(2)
+    self.galleries_queue = []
+    print(f"Function empty_queue successfully completed ✓")
 
   def click_next(self):
     print(f"\nInitiating click_next function...")
@@ -56,8 +73,10 @@ class SearchBot:
     resultslist = self.driver.find_elements_by_css_selector(
         ".section-result-title span")
     for ele in resultslist:
+      # append with xcode rather than element object
       inner_text = self.driver.execute_script(
           "return arguments[0].innerText;", ele)
+      self.galleries_queue.append(inner_text)
       self.galleries_list.append(ele)
       print(f"galleries_list: {len(self.galleries_list)} -- {inner_text}")
     print(f"Function retrieve_list successfully completed ✓")
