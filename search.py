@@ -76,24 +76,6 @@ class SearchBot:
   #   ).click()
   #   sleep(3)
 
-  #   # click not now button to close pop up modal
-  #   self.driver.find_element_by_xpath(
-  #       "/html/body/div[4]/div/div/div[3]/button[2]"
-  #   ).click()
-  #   sleep(1)
-
-  # def fetch_followers(self):  # not yet working
-  #   # click users profile link
-  #   self.driver.find_element_by_xpath(
-  #       "/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[5]/a/img"
-  #   ).click()
-  #   sleep(1)
-
-  #   # click followers link
-  #   self.driver.find_element_by_xpath(
-  #       "/html/body/div[1]/section/main/div/header/section/ul/li[2]/a"
-  #   ).click()
-  #   sleep(1)
 
 
 testbot = SearchBot()
