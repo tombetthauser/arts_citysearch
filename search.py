@@ -33,9 +33,29 @@ class SearchBot:
     for gallery_name in self.galleries_queue:
       xpath = f'//span[text()="{gallery_name}"]'
       element = self.driver.find_element_by_xpath(xpath)
-      # driver.find_element(By.XPATH, f'//span[text()="{gallery_name}"]')
       element.click()
-      sleep(1)
+      sleep(2)
+
+      info = self.driver.find_elements_by_class_name("widget-pane-link")
+      print(f"\nScraping info for {gallery_name}...")
+      print(len(info))
+      self.galleries_dict[gallery_name] = []
+      for ele in list(info):
+        inner_text = self.driver.execute_script("return arguments[0].innerText;", ele)
+        if inner_text != '':
+          self.galleries_dict[gallery_name].append(inner_text)
+        print(f"'{inner_text}' fetched from gallery")
+      try:
+        description_ele = self.driver.find_element_by_css_selector(".section-editorial-quote span")
+        description = self.driver.execute_script("return arguments[0].innerText;", description_ele)
+      except:
+        description = 'no description'
+      self.galleries_dict[gallery_name].append(description)
+      print("\nGallery info collected:")
+      for ele in self.galleries_dict[gallery_name]:
+        print(f"– {ele}")
+      print(f"\nall info added for {gallery_name} ✓")
+
       back_link = self.driver.find_element_by_xpath("//span[text()='Back to results']")
       back_link.click()
       sleep(2)
