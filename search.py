@@ -70,11 +70,6 @@ class SearchBot:
   #   # delete password from temporary variable
   #   self.password = None
 
-  #   # click log in button
-  #   self.driver.find_element_by_xpath(
-  #       "/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]"
-  #   ).click()
-  #   sleep(3)
 
 
 
