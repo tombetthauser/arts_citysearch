@@ -95,18 +95,6 @@ class SearchBot:
   #   ).click()
   #   sleep(1)
 
-  #   # scroll to bottom of followers modal
-  #   modal_bottom = self.driver.find_element_by_xpath(
-  #       "/html/body/div[4]/div/div[2]/ul/div")
-  #   followers_ul = self.driver.find_element_by_xpath(
-  #       "/html/body/div[4]/div/div[2]/ul")
-  #   followers_ul.click()
-
-    # self.driver.execute_script("arguments[0].scrollIntoView()", modal_bottom)
-    # while (True):
-    #   self.driver.execute_script("window.scrollTo(0, 1080)")
-    #   sleep(1)
-
 
 testbot = SearchBot()
 testbot.search_google("San Francisco, CA")
