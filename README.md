@@ -1,4 +1,4 @@
-# Arts Search Bot Tool
+# Arts Searchbot Tool
 A tool built with Python and Selenium for automaticg a search for all galleries, museums and art schools in a given city. Search attempts to find website, email and physical addresses.
 
 <img src="https://www.stayconnect.info/wp-content/uploads/2020/03/Search-engine-robot-min.jpg" alt="" height="275px"/>
