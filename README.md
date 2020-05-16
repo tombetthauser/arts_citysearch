@@ -40,7 +40,7 @@ Sample csv data output for galleries in Madison, Wisconsin.
 ***
 
 # How to Use the Tool:
-1. Download and run the seperate **arts_installer** tool linked (here)[https://tombetthauser.github.io/arts_installer/installer.sh]
+1. Download and run the seperate **arts_installer** tool linked [here](https://tombetthauser.github.io/arts_installer/installer.sh)
 2. Open your command line application (Terminal on MacOS), paste the following and hit enter to run the installer.
 ```
 bash ~/Downloads/installer.sh
@@ -55,7 +55,7 @@ python3 ~/Downloads/arts_citysearch/search.py
 7. Depending on the city you enter the search could take seconds or hours to catalogue all gallery data.
 8. When the search is complete you will find a csv data file in the project folder.
 ```
-The data is all yours, now find something cool to do with it!
+The data is all yours, find something cool to do with it!
 ```
 ***  
 
