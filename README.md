@@ -26,9 +26,9 @@ A tool built with Python and Selenium for automaticg a search for all galleries,
 ***
 
 
-## Example Images:
+# Example Images:
 
-<br><br>
+<br>
 <img src="https://raw.githubusercontent.com/tombetthauser/image_library/master/Screen%20Shot%202020-05-16%20at%208.51.57%20AM.png">
 
 The search tool running independently searching for Chicago art galleries.
@@ -40,7 +40,7 @@ Sample csv data output for galleries in Madison, Wisconsin.
 
 ***
 
-## How to Use the Tool:
+# How to Use the Tool:
 1. Download and run the seperate **arts_installer** tool linked (here)[https://tombetthauser.github.io/arts_installer/installer.sh]
 2. Open your command line application (Terminal on MacOS), paste the following and hit enter to run the installer.
 ```
@@ -58,3 +58,13 @@ python3 ~/Downloads/arts_citysearch/search.py
 ```
 The data is all yours, now find something cool to do with it!
 ```
+***  
+
+# Project Details
+![python logo](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png)  
+
+This project was built with **Python** primarily using the **selenium** library in conjunction with the **chromium** tool to interface with the Google Chrome web browser. The seperate installer file was written specifically for this project in **bash** shell script.
+
+This was originally developed as two day project by [Tom Betthauser](http://www.tombetthauser.com/) in 2020.  
+
+***
