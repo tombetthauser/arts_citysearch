@@ -6,7 +6,7 @@ A tool built with Python and Selenium for automaticg a search for all galleries,
 ### Non-Functional Goals
 1. Help artists compile lists of galleries, museums, art schools and / or artists in a given area to aid and empower their studio practice.
 
-### Functional Goals
+### Minimum Functional Goals
 1. Takes input of a city from the user.
 2. Finds a list of results from search for 'art gallery'.
 3. Catalogues adresses, phone numbers, websites for galleries.
@@ -28,12 +28,11 @@ A tool built with Python and Selenium for automaticg a search for all galleries,
 
 # Example Images:
 
-<br>
 <img src="https://raw.githubusercontent.com/tombetthauser/image_library/master/Screen%20Shot%202020-05-16%20at%208.51.57%20AM.png">
 
 The search tool running independently searching for Chicago art galleries.
 
-<br><br>
+<br>
 <img src="https://raw.githubusercontent.com/tombetthauser/image_library/master/Screen%20Shot%202020-05-16%20at%208.52.54%20AM.png">
 
 Sample csv data output for galleries in Madison, Wisconsin.
