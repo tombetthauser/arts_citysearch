@@ -60,7 +60,7 @@ The data is all yours, find something cool to do with it!
 ***  
 
 # Project Details
-![python logo](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png)  
+<img src="https://selenium-python.readthedocs.io/_static/logo.png" height="175px"> 
 
 This project was built with **Python** primarily using the **selenium** library in conjunction with the **chromium** tool to interface with the Google Chrome web browser. The seperate installer file was written specifically for this project in **bash** shell script.
 
