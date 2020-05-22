@@ -37,25 +37,56 @@ The search tool running independently searching for Chicago art galleries.
 
 Sample csv data output for galleries in Madison, Wisconsin.
 
-***
-
 # How to Use the Tool:
-1. Download and run the seperate **arts_installer** tool linked [here](https://tombetthauser.github.io/arts_installer/installer.sh)
-2. Open your command line application (Terminal on MacOS), paste the following and hit enter to run the installer.
 ```
-bash ~/Downloads/installer.sh
+Note that for now this app is only set up to work with Unix based systems (MacOS and Linux).
+Sorry in advance! 😕
 ```
-3. Install the Chromium tool in your Chrome web browser.
-4. Download this GitHub project with the link above.
-5. Paste the following in your command line and hit enter.
+1. Download the zipped version of the project folder and Google Chrome if you don't already have it...
+
+ ---> [download arts_webscraper.zip]()
+ ---> [download Google Chrome]()
+
+2. Go to your downloads folder and double click the arts_webscraper.zip file to uncompress it.
+3. Open the folder and **double click the arts_webscraper.command file to start** the application.
+
+## If you encounter an issue...
+1. If you get a popup after you double-click the application file about permissions need to be changed, open up your Terminal application (hit command + space, then type "Terminal", then hit enter).
+2. Then paste the following code into your command line...
 ```
-python3 ~/Downloads/arts_citysearch/search.py
+chmod u+x ~/Downloads/arts_webscraper/arts_webscraper.command
 ```
-6. You will be prompted to enter a city, hit enter and allow the search to run.
-7. Depending on the city you enter the search could take seconds or hours to catalogue all gallery data.
-8. When the search is complete you will find a csv data file in the project folder.
+3. This will let the computer know you want to be able to open the app directly.
+4. If you're a regular Terminal user make sure that file path there makes sense.
+5. You can also open the file directly through Terminal with this command...
 ```
-The data is all yours, find something cool to do with it!
+bash ~/Downloads/arts_webscraper/arts_webscraper.command
+```
+6. If it still wont open for some reason give up and forget any of this ever happened, this tool is still under construction!
+7. **Please let me know if you have any trouble** so I can fix it!..
+```
+tombetthauser@gmail.com / twitter: @tombetthauser
+```
+## As it's opening up...
+1. Before starting the application will check to see if you have access to the following tools...
+```
+• python3 –– pre-installed on most Macs
+• chromedriver –– an extension to connect to the webscraper
+• webdriver –– to connect python to the web browser
+```
+2. You might be asked for your main password if needed during these downloads.
+3. If you already have these set up you can directly open the application in Terminal...
+```
+python3 ~/Downloads/arts_dataexplorer/frontend.py
+```
+
+## Once you've got the application open...
+1. Enter a city and watch it go!
+2. In this less-than-perfect version of the tool you have to let it finish.
+3. Once it finishes it will output a data file (.csv) that will contain all the galleries in your input city.
+4. You can import this into excel to expore it.
+```
+Thanks for checking out the tool, hope it helps you do something cool! 🎉
 ```
 ***  
 
