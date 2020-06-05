@@ -7,7 +7,8 @@ import os
 class SearchBot:
   def __init__(self, area="paris, texas"):
     self.area = area
-    self.driver = webdriver.Chrome()
+    # self.driver = webdriver.Chrome()
+    self.driver = webdriver.Chrome(executable_path='C:/path/to/chromedriver.exe')
     self.galleries_list = []
     self.galleries_queue = []
     self.galleries_dict = {}
