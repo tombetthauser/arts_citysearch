@@ -7,7 +7,7 @@ class Bot:
     print(chr(27) + "[2J")
     print("Initiating new Bot... 🐬\n")
     self.path = "./chromedriver"
-    self.input = 'schools.txt'
+    self.input = 'schools2.txt'
     self.searches = []
     self.driver = None
     self.links = [] # delete later
@@ -71,7 +71,7 @@ class Bot:
       # time.sleep(3)
     print('current stack empty 📂')
     self.check()
-    print("/nclosing self.unstack ✓\n")
+    print("\nclosing self.unstack ✓\n")
 
   def txt(self):
     print("running txt()...")
