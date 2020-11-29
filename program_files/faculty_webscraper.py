@@ -1,25 +1,53 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+import re
 
 class Bot:
   def __init__(self):
     print(chr(27) + "[2J")
     print("Initiating new Bot... 🐬\n")
     self.path = "./chromedriver"
-    self.input = 'schools2.txt'
+    self.input = 'schools.txt'
     self.searches = []
     self.driver = None
-    self.links = [] # delete later
     self.stack = []
+    self.list = []
+    self.arts = [] # useless but beautiful...
 
   def cycle(self):
     self.set()
     self.txt()
     self.google()
-    # self.getlinks()
-    # self.unstack()
     self.quit()
+
+  def emails(self):
+    print("running self.emails()...")
+    source = self.driver.page_source
+    print("charactor length of source is", len(source))
+    source = re.split('>|<|. |\)|\(|[|]|\"|\'|\`|\\n|/', source)
+    # source = re.split('>|<|. ', source) # original glory...
+    # print(source) # open the universe...
+    self.arts.append(source)
+    p = re.compile(r"""(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])""")
+    temps = [s for s in source if p.match(s)]
+    for email in temps:
+      if email not in self.list:
+        self.list.append(email)
+    print(self.list)
+    print("closing self.emails ✓\n")
+
+  def empty(self):
+    print("running self.empty()...")
+    print(len(self.list), " in self.list")
+    file = open("output.txt", "a")
+    while len(self.list) > 0:
+      email = self.list.pop()
+      print("adding", email, "to output.txt")
+      file.write(email)
+      file.write("\n")
+    print(len(self.list), " in self.list")
+    print("closing self.empty ✓\n")
 
   def set(self):
     print("running self.set()...")
@@ -28,6 +56,7 @@ class Bot:
 
   def check(self):
     print("\nrunning self.check()... 🌀")
+    self.empty()
     print(len(self.stack), 'items left in self.stack')
     print(len(self.searches), 'items left in self.searches')
     if len(self.stack) > 0:
@@ -67,9 +96,10 @@ class Bot:
       print('\npopping new url off self.stack')
       print(len(self.stack), 'items in self.stack')
       print('redirecting to\n', url)
-      # self.driver.get(url)
-      # time.sleep(3)
-    print('current stack empty 📂')
+      self.driver.get(url)
+      time.sleep(3)
+      self.emails()
+    print('\ncurrent stack empty 📂')
     self.check()
     print("\nclosing self.unstack ✓\n")
 
@@ -84,17 +114,9 @@ class Bot:
     time.sleep(3)
     print("closing self.txt ✓\n")
 
-    
-  def clicklink(self, idx): # delete later
-    print("running clicklink()...")
-    self.links[idx].click()
-    time.sleep(3)
-    print("closing self.clicklink ✓\n")
-
   def quit(self):
     print("running quit()... all done! 👍")
     self.driver.quit()
-
 
 test = Bot()
 test.cycle()
