@@ -4,7 +4,7 @@ import time
 
 class Bot:
   def __init__(self):
-    self.path = "./program_files/chromedriver"
+    self.path = "./chromedriver"
     self.input = 'schools.txt'
     self.searches = []
     self.driver = None
@@ -12,13 +12,12 @@ class Bot:
     self.stack = []
 
   def cycle(self):
-    # self.set()
-    # self.google()
-    # self.getlinks()
-    # self.unstack()
-    # self.quit()
+    self.set()
     self.txt()
-    print(self.searches)
+    self.google()
+    self.getlinks()
+    self.unstack()
+    self.quit()
 
   def set(self):
     self.driver = webdriver.Chrome(self.path)
@@ -26,7 +25,8 @@ class Bot:
   def google(self):
     self.driver.get("http://google.com")
     search = self.driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input')
-    search.send_keys("test")
+    term = self.searches.pop()
+    search.send_keys(term)
     search.send_keys(Keys.RETURN)
     time.sleep(3)
 
@@ -52,6 +52,7 @@ class Bot:
           line = text.strip()
           self.searches.append(line)
           text = file.readline()
+    time.sleep(3)
 
     
   def clicklink(self, idx): # delete later
