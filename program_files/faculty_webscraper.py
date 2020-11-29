@@ -6,6 +6,7 @@ class Bot:
   def __init__(self):
     self.path = "./program_files/chromedriver"
     self.input = 'schools.txt'
+    self.searches = []
     self.driver = None
     self.links = [] # delete later
     self.stack = []
@@ -17,6 +18,7 @@ class Bot:
     # self.unstack()
     # self.quit()
     self.txt()
+    print(self.searches)
 
   def set(self):
     self.driver = webdriver.Chrome(self.path)
@@ -48,7 +50,7 @@ class Bot:
       text = file.readline()
       while text:
           line = text.strip()
-          print(line)
+          self.searches.append(line)
           text = file.readline()
 
     
