@@ -1,9 +1,9 @@
-University of California Los Angeles art department faculty directory
-School of the Art Institute of Chicago art department faculty directory
-Yale University art department faculty directory
-Virginia Commonwealth University art department faculty directory
-California Institute of the Arts art department faculty directory
-Rhode Island School of Design art department faculty directory
+University of California Los Angeles art department faculty directory         2nd layer
+School of the Art Institute of Chicago art department faculty directory       1st layer
+Yale University art department faculty directory                              2nd layer / na
+Virginia Commonwealth University art department faculty directory             2nd + 3rd layers
+California Institute of the Arts art department faculty directory             2nd + 3rd layers
+Rhode Island School of Design art department faculty directory                2nd layer
 Carnegie Mellon University art department faculty directory
 Maryland Institute College of Art art department faculty directory
 University of Michigan art department faculty directory

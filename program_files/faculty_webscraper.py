@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import numpy as np
 import time
 import re
 
@@ -13,6 +14,7 @@ class Bot:
     self.driver = None
     self.stack = []
     self.list = []
+    self.max = 10
     self.arts = [] # useless but beautiful...
 
   def cycle(self):
@@ -21,6 +23,12 @@ class Bot:
     self.google()
     self.quit()
 
+  def sleep(self):
+    max = self.max
+    min = 3
+    random = (max - min)*np.random.random() + min
+    time.sleep(random)
+    
   def emails(self):
     print("running self.emails()...")
     source = self.driver.page_source
@@ -73,7 +81,7 @@ class Bot:
     print('searching for', term, '...')
     search.send_keys(term)
     search.send_keys(Keys.RETURN)
-    time.sleep(3)
+    self.sleep()
     self.getlinks()
     self.check()
     print("closing self.google ✓\n")
@@ -97,7 +105,7 @@ class Bot:
       print(len(self.stack), 'items in self.stack')
       print('redirecting to\n', url)
       self.driver.get(url)
-      time.sleep(3)
+      self.sleep()
       self.emails()
     print('\ncurrent stack empty 📂')
     self.check()
@@ -111,7 +119,7 @@ class Bot:
           line = text.strip()
           self.searches.append(line)
           text = file.readline()
-    time.sleep(3)
+    self.sleep()
     print("closing self.txt ✓\n")
 
   def quit(self):
