@@ -1,5 +1,9 @@
-# Arts Search-bot Tool
+# Arts Searchbot Tool
 A tool built with Python and Selenium for automaticg a search for all galleries, museums and art schools in a given city. Search attempts to find website, email and physical addresses.
+
+```
+❗️ Warning: This tool is awaiting an overhaul, it currently works only with Google Chrome v81
+```
 
 <img src="https://www.stayconnect.info/wp-content/uploads/2020/03/Search-engine-robot-min.jpg" alt="" height="275px"/>
 
@@ -44,8 +48,9 @@ Sorry in advance! 😕
 ```
 1. Download the zipped version of the project folder and Google Chrome if you don't already have it...
 
- ---> [download arts_webscraper.zip]()
- ---> [download Google Chrome]()
+ ---> [download arts_webscraper.zip](https://github.com/tombetthauser/arts_webscraper/raw/master/program_files/arts_webscraper.zip)
+ <br>
+ ---> [download Google Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjw8J32BRBCEiwApQEKgbLqlNU0pSpXu-nUf-sLfpgc0Ih0ghfaiJfGIVIbOj1YLNJbSRsEkhoC7yUQAvD_BwE&gclsrc=aw.ds)
 
 2. Go to your downloads folder and double click the arts_webscraper.zip file to uncompress it.
 3. Open the folder and **double click the arts_webscraper.command file to start** the application.
