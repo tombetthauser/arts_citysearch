@@ -6,12 +6,13 @@ class Bot:
   def __init__(self):
     self.path = "./program_files/chromedriver"
     self.driver = webdriver.Chrome(self.path)
-    self.links = []
+    self.links = [] # delete later
+    self.stack = []
 
   def cycle(self):
     self.google()
     self.getlinks()
-    self.clicklink(0)
+    self.unstack()
     self.quit()
 
   def google(self):
@@ -23,9 +24,21 @@ class Bot:
 
   def getlinks(self):
     searchdiv = self.driver.find_element_by_id("search")
-    self.links = searchdiv.find_elements_by_tag_name("a")
+    self.links = searchdiv.find_elements_by_tag_name("a") # delete later
+    links = searchdiv.find_elements_by_tag_name("a")
+    for link in links:
+      url = link.get_attribute('href')
+      if url not in self.stack:
+        self.stack.append(url)
+
+  def unstack(self):
+    while len(self.stack) > 0:
+      url = self.stack.pop()
+      self.driver.get(url)
+      time.sleep(3)
+
     
-  def clicklink(self, idx):
+  def clicklink(self, idx): # delete later
     self.links[idx].click()
     time.sleep(3)
 
@@ -33,5 +46,5 @@ class Bot:
     self.driver.quit()
 
 
-new = Bot()
-new.cycle()
+test = Bot()
+test.cycle()
