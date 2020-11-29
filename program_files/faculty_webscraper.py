@@ -11,9 +11,12 @@ search = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/d
 search.send_keys("test")
 search.send_keys(Keys.RETURN)
 
-# driver.quit()
+time.sleep(3)
 
-# from selenium.webdriver.common.keys import Keys
-# from time import sleep
-# from time import time
-# import os
+searchdiv = driver.find_element_by_id("search")
+links = searchdiv.find_elements_by_tag_name("a")
+links[0].click()
+
+time.sleep(3)
+
+driver.quit()
