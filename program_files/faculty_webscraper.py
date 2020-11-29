@@ -5,15 +5,21 @@ import time
 class Bot:
   def __init__(self):
     self.path = "./program_files/chromedriver"
-    self.driver = webdriver.Chrome(self.path)
+    self.input = 'schools.txt'
+    self.driver = None
     self.links = [] # delete later
     self.stack = []
 
   def cycle(self):
-    self.google()
-    self.getlinks()
-    self.unstack()
-    self.quit()
+    # self.set()
+    # self.google()
+    # self.getlinks()
+    # self.unstack()
+    # self.quit()
+    self.txt()
+
+  def set(self):
+    self.driver = webdriver.Chrome(self.path)
 
   def google(self):
     self.driver.get("http://google.com")
@@ -36,6 +42,14 @@ class Bot:
       url = self.stack.pop()
       self.driver.get(url)
       time.sleep(3)
+
+  def txt(self):
+    with open(self.input) as file:
+      text = file.readline()
+      while text:
+          line = text.strip()
+          print(line)
+          text = file.readline()
 
     
   def clicklink(self, idx): # delete later
