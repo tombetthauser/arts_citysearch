@@ -56,7 +56,7 @@ class Bot:
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight * Math.random());")
       except:
         print("no driver yet")
-      time.sleep(totaltime)
+      time.sleep(pause)
     
   def emails(self):
     print("running self.emails()...")
@@ -107,6 +107,7 @@ class Bot:
   def google(self):
     print("running google()...")
     self.driver.get("http://google.com")
+    self.filter()
     self.sleep()
     try:
       search = self.driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input')
@@ -114,6 +115,7 @@ class Bot:
       print('searching for', term, '...')
       search.send_keys(term)
       search.send_keys(Keys.RETURN)
+      self.filter()
     except:
       print("failed to load page")
     self.sleep()
@@ -177,6 +179,12 @@ class Bot:
     with open(self.input, "w") as file:
       file.write(string)
 
+  def filter(self):
+    # self.driver.execute_script("document.querySelector('body').style.filter = 'brightness(.8) saturate(0) contrast(10)';")
+    self.driver.execute_script("document.querySelectorAll('*').forEach(ele => ele.style.filter = 'brightness(.8) saturate(0) contrast(10)');")
+    self.driver.execute_script("document.querySelectorAll('*').forEach(ele => ele.style.border = '1px solid black');")
+
+
   def unstack(self):
     print("running unstack()...")
     while len(self.stack) > 0:
@@ -186,6 +194,7 @@ class Bot:
       print('redirecting to\n', url)
       try:
         self.driver.get(url)
+        self.filter()
         self.sleep()
         self.emails()
         self.getlinks2(2)
@@ -207,6 +216,7 @@ class Bot:
       print('redirecting to\n', url)
       try:
         self.driver.get(url)
+        self.filter()
         self.sleep()
         self.emails()
         self.getlinks2(3)
@@ -228,6 +238,7 @@ class Bot:
       print('redirecting to\n', url)
       try:
         self.driver.get(url)
+        self.filter()
         self.sleep()
         self.emails()
       except:
