@@ -189,7 +189,7 @@ class Bot:
     if len(self.list) > 20:
       self.stack2 = []
     while len(self.stack2) > 0:
-      self.stack2 = self.stack2[0, 30]
+      self.stack2 = self.stack2[0:30]
       if len(self.list) > 50:
         self.stack2 = []
       try:
@@ -210,7 +210,7 @@ class Bot:
     if len(self.list) > 20:
       self.stack3 = []
     while len(self.stack3) > 0:
-      self.stack3 = self.stack2[0, 30]
+      self.stack3 = self.stack2[0:30]
       if len(self.list) > 50:
         self.stack3 = []
       url = self.stack3.pop()
