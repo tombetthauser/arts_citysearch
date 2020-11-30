@@ -166,7 +166,6 @@ class Bot:
     string = []
     with open(self.input, "r") as file:
       content = file.readlines()
-      print("\n".join(content[:-1]))
       string = "".join(content[:-1])
     with open(self.input, "w") as file:
       file.write(string)
