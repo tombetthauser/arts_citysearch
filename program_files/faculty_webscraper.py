@@ -212,7 +212,10 @@ class Bot:
       self.stack3 = self.stack2[0:30]
       if len(self.list) > 50:
         self.stack3 = []
-      url = self.stack3.pop()
+      try:
+        url = self.stack3.pop()
+      except:
+        print("error bypassed ----> attempted stack3.pop on empty stack")
       print('\npopping new url off self.stack3')
       print(len(self.stack3), 'items in self.stack3')
       print('redirecting to\n', url)
