@@ -48,8 +48,8 @@ class Bot:
     max = self.max
     min = 5
     totaltime = (max - min)*np.random.random() + min
-    while totaltime > 0:
-      pause = totaltime * np.random.random()
+    while totaltime > 0.5:
+      pause = 0.5 * np.random.random()
       totaltime = totaltime - pause
       print("pausing for", totaltime, "sec...")
       try:
