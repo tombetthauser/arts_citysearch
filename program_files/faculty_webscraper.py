@@ -47,9 +47,16 @@ class Bot:
   def sleep(self):
     max = self.max
     min = 5
-    random = (max - min)*np.random.random() + min
-    print("pausing for", random, "sec...")
-    time.sleep(random)
+    totaltime = (max - min)*np.random.random() + min
+    while totaltime > 0:
+      pause = totaltime * np.random.random()
+      totaltime = totaltime - pause
+      print("pausing for", totaltime, "sec...")
+      try:
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight * Math.random());")
+      except:
+        print("no driver yet")
+      time.sleep(totaltime)
     
   def emails(self):
     print("running self.emails()...")
