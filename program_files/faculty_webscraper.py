@@ -186,12 +186,16 @@ class Bot:
       except:
         print("url / href is None")
     print('self.stack empty')
-    if len(self.list) > 30:
+    if len(self.list) > 20:
       self.stack2 = []
     while len(self.stack2) > 0:
+      self.stack2 = self.stack2[0, 30]
       if len(self.list) > 50:
         self.stack2 = []
-      url = self.stack2.pop()
+      try:
+        url = self.stack2.pop()
+      except:
+        print("error bypassed ----> attempted stack2.pop on empty stack")
       print('\npopping new url off self.stack2')
       print(len(self.stack2), 'items in self.stack2')
       print('redirecting to\n', url)
@@ -203,9 +207,10 @@ class Bot:
       except:
         print("url / href is None")
     print('self.stack2 empty')
-    if len(self.list) > 30:
+    if len(self.list) > 20:
       self.stack3 = []
     while len(self.stack3) > 0:
+      self.stack3 = self.stack2[0, 30]
       if len(self.list) > 50:
         self.stack3 = []
       url = self.stack3.pop()

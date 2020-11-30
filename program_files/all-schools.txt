@@ -1,52 +1,223 @@
-University of California Los Angeles art department faculty directory
-School of the Art Institute of Chicago art department faculty directory
-Yale University art department faculty directory
-Virginia Commonwealth University art department faculty directory
-California Institute of the Arts art department faculty directory
-Rhode Island School of Design art department faculty directory
-Carnegie Mellon University art department faculty directory
-Maryland Institute College of Art art department faculty directory
-University of Michigan art department faculty directory
-Alfred University New York State College of Ceramics art department faculty directory
-Bard College art department faculty directory
-California College of the Arts art department faculty directory
-Columbia University art department faculty directory
-University of California San Diego art department faculty directory
-Arizona State University art department faculty directory
-Art Center College of Design art department faculty directory
-Cranbrook Academy of Art art department faculty directory
-New School Parsons School of Design art department faculty directory
-Pratt Institute art department faculty directory
-University of California Berkeley art department faculty directory
-University of California Davis art department faculty directory
-University of Wisconsin Madison art department faculty directory
-CUNY Hunter College art department faculty directory
-Massachusetts College of Art art department faculty directory
-Rochester Institute of Technology art department faculty directory
-Rutgers The State University of New Jersey New Brunswick art department faculty directory
-School of Visual Arts art department faculty directory
-University of Colorado Boulder art department faculty directory
-University of Iowa art department faculty directory
-University of Texas Austin art department faculty directory
-Washington University in St. Louis art department faculty directory
-Boston University art department faculty directory
-Indiana University Bloomington art department faculty directory
-Ohio State University art department faculty directory
-Ohio University art department faculty directory
-Otis College of Art and Design art department faculty directory
-Stanford University art department faculty directory
-Temple University art department faculty directory
-University of Arizona art department faculty directory
-University of Georgia art department faculty directory
-University of Washington art department faculty directory
-Claremont Graduate University art department faculty directory
-Florida State University art department faculty directory
-New York University art department faculty directory
-San Francisco Art Institute art department faculty directory
-University of California Irvine art department faculty directory
-University of California Santa Barbara art department faculty directory
-University of Chicago art department faculty directory
-University of Florida art department faculty directory
-University of Illinois Chicago art department faculty directory
-University of North Texas art department faculty directory
-University of Tennessee Knoxville art department faculty directory
+University of California Los Angeles
+School of the Art Institute of Chicago
+Yale University
+Virginia Commonwealth University
+California Institute of the Arts
+Rhode Island School of Design
+Carnegie Mellon University
+Maryland Institute College of Art
+University of Michigan
+Alfred University New York State College of Ceramics
+Bard College
+California College of the Arts
+Columbia University
+University of California San Diego
+Arizona State University
+Art Center College of Design
+Cranbrook Academy of Art
+New School Parsons School of Design
+Pratt Institute
+University of California Berkeley
+University of California Davis
+University of Wisconsin Madison
+CUNY Hunter College
+Massachusetts College of Art
+Rochester Institute of Technology
+School of Visual Arts
+University of Colorado Boulder
+University of Iowa
+University of Texas Austin
+Boston University
+Indiana University Bloomington
+Ohio State University
+Ohio University
+Otis College of Art and Design
+Stanford University
+Temple University
+University of Arizona
+University of Georgia
+University of Washington
+Claremont Graduate University
+Florida State University
+New York University
+San Francisco Art Institute
+University of California Irvine
+University of California Santa Barbara
+University of Chicago
+University of Florida
+University of Illinois Chicago
+University of North Texas
+University of Tennessee Knoxville
+California State University Los Angeles
+Cornell University
+Howard University
+Michigan State University
+Minneapolis College of Art and Design
+Syracuse University
+Tufts University - School of the Museum of Fine Arts Boston
+University of Cincinnati
+University of Illinois Urbana-Champaign
+University of Oregon
+University of Southern California
+CUNY City College
+Pennsylvania State University University Park
+Rensselaer Polytechnic Institute
+University of California Santa Cruz
+University of Kansas
+University of Minnesota Twin Cities
+University of New Mexico
+University of Pennsylvania
+University of the Arts
+Bowling Green State University
+Cleveland Institute of Art
+College for Creative Studies
+CUNY Brooklyn College
+George Mason University
+George Washington University
+Herron School of Art & Design
+Louisiana State University
+Northwestern University
+Purchase College SUNY
+SUNY New Paltz
+University at Buffalo SUNY
+University of Nebraska Lincoln
+University of North Carolina Chapel Hill
+University of South Florida
+West Virginia University
+American University
+California State University Northridge
+Illinois State University
+Maine College of Art
+Montana State University
+San Diego State University
+University of Maryland Baltimore County
+University of Massachusetts Amherst
+University of North Carolina Greensboro
+University of Wisconsin Milwaukee
+California State University Long Beach
+Colorado State University
+Columbia College
+Iowa State University
+James Madison University
+Pacific Northwest College of Art
+Pennsylvania Academy of Fine Arts
+University of Connecticut
+University of Kentucky
+University of Montana
+University of Notre Dame
+California State University Chico
+California State University Fullerton
+Clemson University
+Columbus College of Art and Design
+CUNY Queens College
+East Carolina University
+Ferris State University (Kendall)
+Kent State University
+Lesley University
+Mills College
+Purdue University
+San Jose State University
+Texas Tech University
+University of Maryland College Park
+Moore College of Art and Design
+New York Academy of Art
+Portland State University
+San Francisco State University
+University of Arkansas Fayetteville
+University of Delaware
+University of Denver
+University of Hawaii Manoa
+University of Houston
+University of Miami
+University of Utah
+Boise State University
+Georgia State University
+Indiana State University
+Kansas State University
+Miami International University of Art and Design
+New Mexico State University
+New York Studio School
+Southern Illinois University Carbondale
+Southern Methodist University
+Tulane University
+University at Albany SUNY
+University of Massachusetts Dartmouth
+University of Nevada Las Vegas
+University of Texas Arlington
+University of Texas San Antonio
+Wayne State University
+Western Michigan University
+Northern Illinois University
+Stony Brook University SUNY
+University of Hartford
+University of Memphis
+University of South Carolina
+Washington State University
+Eastern Michigan University
+Laguna College of Art & Design
+Miami University
+Savannah College of Art and Design
+Southern Illinois University Edwardsville
+Towson University
+University of Alabama
+University of Mississippi
+University of New Hampshire
+University of Oklahoma
+Utah State University
+Vermont College of Fine Arts
+Wichita State University
+Azusa Pacific University
+Georgia Southern University
+Montclair State University
+University of Idaho
+University of Minnesota Duluth
+University of Missouri
+Winthrop University
+Bradley University
+California State University San Bernardino
+Central Michigan University
+CUNY Lehman College
+East Tennessee State University
+Florida Atlantic University
+Florida International University
+Maine Media College and the Maine Photographic Workshops
+New York School of Interior Design
+Texas Christian University
+Texas Woman's University
+University of Alaska Fairbanks
+University of Dallas
+University of North Dakota
+University of Texas Tyler
+Brigham Young University
+College at Brockport SUNY
+Idaho State University
+Indiana University of Pennsylvania
+Norfolk State University
+Old Dominion University
+University of New Orleans
+Western Carolina University
+Edinboro University of Pennsylvania
+Goddard College
+LIU Post
+New Jersey City University
+Texas A&M University Commerce
+Texas A&M University Corpus Christi
+University of Nevada Reno
+University of Southern Mississippi
+University of Tulsa
+Barry University
+Central Washington University
+Fontbonne University
+Johnson State College
+Louisiana Tech University
+Marywood College
+Mississippi College
+Radford University
+William Paterson University of New Jersey
+Fort Hays State University
+University of South Dakota
+University of Texas Rio Grande Valley
+West Texas A&M University
+Academy of Art University
+University of Central Oklahoma
+Western Connecticut State University
