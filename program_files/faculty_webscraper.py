@@ -7,9 +7,9 @@ import re
 
 class Bot:
   def __init__(self):
-    print(chr(27) + "[2J")
-    print("Initiating new Bot... 🐬\n")
-    self.start = self.printtime()
+    # print(chr(27) + "[2J")
+    # print("Initiating new Bot... 🐬\n")
+    # self.start = self.printtime()
     self.path = "./chromedriver"
     self.input = 'schools.txt'
     self.visitedurls = {"cat", "dog"}
@@ -30,6 +30,18 @@ class Bot:
     self.google()
     self.writestop()
     self.quit()
+    # self.removelinks("<body><p>hello!</p><a href='#'>click</a><p>hello again!</p><a href='#'>click again</a><p>goodbye!</p></body>")
+
+  def removelinks(self, urlstring):
+    split = urlstring.split("<a")
+    returnArr = []
+    for ele in split:
+      if "/a>" in ele:
+        subSplit = ele.split("/a>")
+        returnArr.append(subSplit[1])
+      else:
+        returnArr.append(ele)
+    return "".join(returnArr)
 
   def writestart(self):
     file = open("output.txt", "a")
