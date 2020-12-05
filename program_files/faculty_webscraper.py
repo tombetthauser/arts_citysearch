@@ -7,12 +7,13 @@ import re
 
 class Bot:
   def __init__(self):
-    # print(chr(27) + "[2J")
-    # print("Initiating new Bot... 🐬\n")
-    # self.start = self.printtime()
+    print(chr(27) + "[2J")
+    print("Initiating new Bot... 🐬\n")
+    self.start = self.printtime()
     self.path = "./chromedriver"
     self.input = 'schools.txt'
     self.visitedurls = {"cat", "dog"}
+    self.badwords = ["science", "drama", "theatre", "mathmatics"]
     self.googlinksmax = 3
     self.searches = []
     self.driver = None
@@ -35,12 +36,8 @@ class Bot:
 
   def isartpage(self):
     source = self.driver.page_source
-    # a_string = "A string is more than its parts!"
     str = self.removelinks(source.lower())
-    badwords = ["science", "drama", "theatre", "biology"]
-
-    if any(x in str for x in badwords):
-    # if "science" in str or "drama" in str:
+    if any(x in str for x in self.badwords):
       return False
     return True
 
