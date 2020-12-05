@@ -55,12 +55,12 @@ class Bot:
       try:
         input.send_keys(term)
         input.send_keys(Keys.RETURN)
-        self.sleep()
         self.get_map_names()
       except:
         print("input failure")
 
   def get_map_names(self):
+    self.sleep()
     names = self.driver.find_elements_by_css_selector('.section-result-title span')
     print("names list length ------------------> ", len(names))
     print("names list --------------------------> ", names)
@@ -72,6 +72,28 @@ class Bot:
       file.write(name_and_city)
       file.write("\n")
       print("done with new addition")
+    self.sleep()
+    print("is_not_last_page() -----> ", self.is_not_last_page())
+    if self.is_not_last_page():
+      print("more pages, recursing get_map_names()...")
+      self.click_map_next()
+      self.sleep()
+      self.get_map_names()
+    print("no more pages, exiting get_map_names() call...")
+    
+
+  def click_map_next(self):
+    next_id = "n7lv7yjyC35__section-pagination-button-next"
+    next_button = self.driver.find_element_by_id(next_id)
+    next_button.click()
+    self.sleep()
+
+  def is_not_last_page(self):
+    eles = self.driver.find_elements_by_css_selector('#n7lv7yjyC35__section-pagination-button-next.n7lv7yjyC35__button-disabled')
+    if len(eles) > 0:
+      return False
+    return True
+
 
   # def add_to_output(self):
   #   file = open("output.txt", "a")
