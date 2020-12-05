@@ -7,9 +7,9 @@ import re
 
 class Bot:
   def __init__(self):
-    self.search_mode = "map" # options -- email / map
-    # self.search_term = " fine art department alumni directory contact"
-    self.search_term = " fine art gallery"
+    self.search_mode = "email" # options -- email / map
+    self.search_term = " fine art department alumni directory contact"
+    # self.search_term = " fine art gallery"
     self.current_search = ""
     print(chr(27) + "[2J")
     print("Initiating new Bot...\n")
@@ -77,7 +77,6 @@ class Bot:
     if self.is_not_last_page():
       print("more pages, recursing get_map_names()...")
       self.click_map_next()
-      self.sleep()
       self.get_map_names()
     print("no more pages, exiting get_map_names() call...")
     
@@ -146,6 +145,16 @@ class Bot:
     min = 5
     totaltime = (max - min)*np.random.random() + min
     while totaltime > 0.5:
+      # try:
+      #   driver.set_context("chrome")
+      #   win = driver.find_element_by_tag_name("window")
+      #   if totaltime % 2 == 0:
+      #     win.send_keys(Keys.COMMAND + "-")
+      #   else:
+      #     win.send_keys(Keys.COMMAND + "+")
+      #   driver.set_context("content")
+      # except:
+      #   print("attempted zoom but no window element found")
       pause = 0.5 * np.random.random()
       totaltime = totaltime - pause
       print("pausing for", totaltime, "sec...")
