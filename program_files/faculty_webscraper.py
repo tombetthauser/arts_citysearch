@@ -7,6 +7,8 @@ import re
 
 class Bot:
   def __init__(self):
+    self.search_mode = "email" # options -- email / map
+    self.search_term = " fine art department alumni directory contact"
     print(chr(27) + "[2J")
     print("Initiating new Bot...\n")
     self.start = self.printtime()
@@ -14,6 +16,8 @@ class Bot:
     self.input = 'schools.txt'
     self.visitedurls = {"cat", "dog"}
     self.badwords = ["science", "drama", "theatre", "mathmatics"]
+    self.badwords2 = ["recruitment", "admissions"]
+    self.email_regex = r"""(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"""
     self.googlinksmax = 3
     self.searches = []
     self.driver = None
@@ -28,16 +32,17 @@ class Bot:
     self.writestart()
     self.set()
     self.txt()
-    self.google()
+    if self.search_mode:
+      self.google()
+    else:
+      self.map_search()
     self.writestop()
     self.quit()
-    # print(self.isartpage("<body><p>Welcome to DRAMA!</p><a href='#'>click for science</a><p>hello again!</p><a href='#'>click for drama</a><p>goodbye!</p></body>"))
-    # self.removelinks("<body><p>hello!</p><a href='#'>click</a><p>hello again!</p><a href='#'>click again</a><p>goodbye!</p></body>")
 
   def isartpage(self):
     source = self.driver.page_source
     str = self.removelinks(source.lower())
-    if any(x in str for x in self.badwords):
+    if not any(x in str for x in self.badwords):
       return False
     return True
 
@@ -87,11 +92,12 @@ class Bot:
     # source = re.split('>|<|. ', source) # original glory...
     # print(source) # open the universe...
     self.arts.append(source)
-    p = re.compile(r"""(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])""")
+    p = re.compile(self.email_regex)
     temps = [s for s in source if p.match(s)]
     for email in temps:
       if email not in self.list:
-        self.list.append(email)
+        if not any(wrd in self.badwords for wrd in email):
+          self.list.append(email)
     print(self.list)
     print("closing self.emails ✓\n")
 
@@ -132,7 +138,7 @@ class Bot:
     self.sleep()
     try:
       search = self.driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input')
-      term = self.searches.pop() + " art department faculty directory"
+      term = self.searches.pop() + self.search_term
       print('searching for', term, '...')
       search.send_keys(term)
       search.send_keys(Keys.RETURN)
@@ -154,19 +160,20 @@ class Bot:
       url = link.get_attribute('href')
       if url != None:
         if "google" not in url:
-          if ".edu" in url:
-            if "@" not in url:
-              if url not in self.visitedurls:
-                if count < self.googlinksmax:
-                  self.visitedurls.add(url)
-                  count = count + 1
-                  if url not in self.stack:
-                    if stacknum == 2:
-                      self.stack2.append(url)
-                    elif stacknum == 3:
-                      self.stack3.append(url)
-                    else:
-                      self.stack.append(url)
+          if not any(wrd in self.badwords for wrd in url):
+            if ".edu" in url:
+              if "@" not in url:
+                if url not in self.visitedurls:
+                  if count < self.googlinksmax:
+                    self.visitedurls.add(url)
+                    count = count + 1
+                    if url not in self.stack:
+                      if stacknum == 2:
+                        self.stack2.append(url)
+                      elif stacknum == 3:
+                        self.stack3.append(url)
+                      else:
+                        self.stack.append(url)
     print("closing self.getlinks ✓\n")
 
   def getlinks2(self, stacknum = 1):
@@ -176,20 +183,21 @@ class Bot:
       url = link.get_attribute('href')
       if url not in self.stack:
         if "google" not in url:
-          if ".edu" in url:
-            if "@" not in url:
-              if "faculty" in url or "directory" in url or "staff" in url or "contact" in url:
-                if url not in self.visitedurls:
-                  self.visitedurls.add(url)
-                  if stacknum == 2:
-                    self.stack2.append(url)
-                    print("adding url to self.stack2 ----->", url)
-                  elif stacknum == 3:
-                    self.stack3.append(url)
-                    print("adding url to self.stack3 ----->", url)
-                  else:
-                    self.stack.append(url)
-                    print("adding url to self.stack ----->", url)
+          if not any(wrd in self.badwords for wrd in url):
+            if ".edu" in url:
+              if "@" not in url:
+                if "faculty" in url or "directory" in url or "staff" in url or "contact" in url:
+                  if url not in self.visitedurls:
+                    self.visitedurls.add(url)
+                    if stacknum == 2:
+                      self.stack2.append(url)
+                      print("adding url to self.stack2 ----->", url)
+                    elif stacknum == 3:
+                      self.stack3.append(url)
+                      print("adding url to self.stack3 ----->", url)
+                    else:
+                      self.stack.append(url)
+                      print("adding url to self.stack ----->", url)
     print("closing self.getlinks2 ✓\n")
 
   def popschool(self):
@@ -204,7 +212,6 @@ class Bot:
     # self.driver.execute_script("document.querySelector('body').style.filter = 'brightness(.8) saturate(0) contrast(10)';")
     self.driver.execute_script("document.querySelectorAll('*').forEach(ele => ele.style.filter = 'brightness(.8) saturate(0) contrast(10)');")
     self.driver.execute_script("document.querySelectorAll('*').forEach(ele => ele.style.border = '1px solid black');")
-
 
   def unstack(self):
     print("running unstack()...")
