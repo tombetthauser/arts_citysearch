@@ -9,7 +9,8 @@ class Bot:
   def __init__(self):
     self.search_mode = "map" # options -- email / map
     # self.search_term = " fine art department alumni directory contact"
-    self.search_term = " fine art department alumni directory contact"
+    self.search_term = " fine art gallery"
+    self.current_search = ""
     print(chr(27) + "[2J")
     print("Initiating new Bot...\n")
     self.start = self.printtime()
@@ -47,22 +48,45 @@ class Bot:
     self.sleep()
     # try:
     inputs = self.driver.find_elements_by_tag_name('input')
-    term = self.searches.pop() + self.search_term
+    self.current_search = self.searches.pop()
+    term = self.current_search + self.search_term
     print('searching for', term, '...')
     for input in inputs:
       try:
         input.send_keys(term)
         input.send_keys(Keys.RETURN)
+        self.sleep()
+        self.get_map_names()
       except:
         print("input failure")
-    self.sleep()
-    # self.filter()
-    # except:
-      # print("failed to load page")
-    # self.sleep()
-    # self.getlinks()
-    # self.check()
-    # print("closing self.google ✓\n")
+
+  def get_map_names(self):
+    names = self.driver.find_elements_by_css_selector('.section-result-title span')
+    print("names list length ------------------> ", len(names))
+    print("names list --------------------------> ", names)
+    for ele in names:
+      name = ele.get_attribute('innerText')
+      name_and_city = name + ", " + self.current_search
+      print("inner html --------------------------> " + name_and_city)
+      file = open("output.txt", "a")
+      file.write(name_and_city)
+      file.write("\n")
+      print("done with new addition")
+
+  # def add_to_output(self):
+  #   file = open("output.txt", "a")
+  #   while len(self.list) > 0:
+  #     file.write(email)
+  #     file.write("\n")
+  #   self.popschool()
+
+  def add_to_output(self, string):
+    print("adding " + name_and_city + " to output")
+    # file = open("output.txt", "a")
+    # file.write(string)
+    # file.write("\n")
+    # print("done with new addition")
+
 
   def isartpage(self):
     source = self.driver.page_source
