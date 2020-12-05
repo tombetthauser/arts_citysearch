@@ -7,7 +7,8 @@ import re
 
 class Bot:
   def __init__(self):
-    self.search_mode = "email" # options -- email / map
+    self.search_mode = "map" # options -- email / map
+    # self.search_term = " fine art department alumni directory contact"
     self.search_term = " fine art department alumni directory contact"
     print(chr(27) + "[2J")
     print("Initiating new Bot...\n")
@@ -32,12 +33,36 @@ class Bot:
     self.writestart()
     self.set()
     self.txt()
-    if self.search_mode:
+    if self.search_mode == "email":
       self.google()
-    else:
+    elif self.search_mode == "map":
       self.map_search()
     self.writestop()
     self.quit()
+
+  def map_search(self):
+    print("running google()...")
+    self.driver.get("http://maps.google.com")
+    # self.filter()
+    self.sleep()
+    # try:
+    inputs = self.driver.find_elements_by_tag_name('input')
+    term = self.searches.pop() + self.search_term
+    print('searching for', term, '...')
+    for input in inputs:
+      try:
+        input.send_keys(term)
+        input.send_keys(Keys.RETURN)
+      except:
+        print("input failure")
+    self.sleep()
+    # self.filter()
+    # except:
+      # print("failed to load page")
+    # self.sleep()
+    # self.getlinks()
+    # self.check()
+    # print("closing self.google ✓\n")
 
   def isartpage(self):
     source = self.driver.page_source

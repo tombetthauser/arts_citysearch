@@ -1,0 +1,1147 @@
+Tokyo Japan
+Delhi India
+Shanghai China
+Sao Paulo Brazil
+Mexico City Mexico
+Dhaka Bangladesh
+Cairo Egypt
+Beijing China
+Mumbai India
+Osaka Japan
+Karachi Pakistan
+Chongqing China
+Istanbul Turkey
+Buenos Aires Argentina
+Kolkata India
+Lagos Nigeria
+Kinshasa Dr Congo
+Manila Philippines
+Tianjin China
+Rio De Janeiro Brazil
+Guangzhou China
+Lahore Pakistan
+Moscow Russia
+Shenzhen China
+Bangalore India
+Paris France
+Bogota Colombia
+Chennai India
+Jakarta Indonesia
+Lima Peru
+Bangkok Thailand
+Hyderabad India
+Seoul South Korea
+Nagoya Japan
+London United Kingdom
+Chengdu China
+Tehran Iran
+Nanjing China
+Ho Chi Minh City Vietnam
+Wuhan China
+Luanda Angola
+New York City City United States
+Ahmedabad India
+Xi An Shaanxi China
+Kuala Lumpur Malaysia
+Hangzhou China
+Hong Kong Hong Kong
+Dongguan China
+Foshan China
+Riyadh Saudi Arabia
+Shenyang China
+Surat India
+Baghdad Iraq
+Suzhou China
+Santiago Chile
+Dar Es Salaam Tanzania
+Pune India
+Madrid Spain
+Haerbin China
+Toronto Canada
+Belo Horizonte Brazil
+Singapore Singapore
+Khartoum Sudan
+Johannesburg South Africa
+Qingdao China
+Dalian China
+Barcelona Spain
+Fukuoka Japan
+Saint Petersburg Russia
+Ji Nan Shandong China
+Yangon Myanmar
+Zhengzhou China
+Alexandria Egypt
+Abidjan Ivory Coast
+Guadalajara Mexico
+Ankara Turkey
+Chittagong Bangladesh
+Melbourne Australia
+Sydney Australia
+Monterrey Mexico
+Addis Ababa Ethiopia
+Nairobi Kenya
+Hanoi Vietnam
+Brasilia Brazil
+Cape Town South Africa
+Jiddah Saudi Arabia
+Changsha China
+Kunming China
+Changchun China
+Xinbei Taiwan
+Urumqi China
+Shantou China
+Rome Italy
+Hefei China
+Kabul Afghanistan
+Montreal Canada
+Tel Aviv Israel
+Porto Alegre Brazil
+Recife Brazil
+Ningbo China
+Shijiazhuang China
+Fortaleza Brazil
+Los Angeles United States
+Medellin Colombia
+Kano Nigeria
+Yaounde Cameroon
+Jaipur India
+Ekurhuleni South Africa
+Taiyuan Shanxi China
+Nanning China
+Salvador Brazil
+Casablanca Morocco
+Xiamen China
+Fuzhou Fujian China
+Curitiba Brazil
+Lucknow India
+Douala Cameroon
+Changzhou China
+Wenzhou China
+Nanchang China
+Berlin Germany
+Kozhikode India
+Ibadan Nigeria
+Busan South Korea
+Faisalabad Pakistan
+Tangshan Hebei China
+Bekasi Indonesia
+Malappuram India
+Antananarivo Madagascar
+Kumasi Ghana
+Asuncion Paraguay
+Santo Domingo Dominican Republic
+Guiyang China
+Campinas Brazil
+Kampala Uganda
+Abuja Nigeria
+Wuxi China
+Mashhad Iran
+Puebla Mexico
+Durban South Africa
+Athens Greece
+Dakar Senegal
+Milan Italy
+Kanpur India
+Kuwait City Kuwait
+Pyongyang North Korea
+Kochi India
+Lanzhou China
+Thrissur India
+Port Harcourt Nigeria
+Indore India
+Guayaquil Ecuador
+Izmir Turkey
+Kiev Ukraine
+Sanaa Yemen
+Lisbon Portugal
+Surabaya Indonesia
+Caracas Venezuela
+Guatemala City Guatemala
+Shizuoka Japan
+Zhongshan China
+Nagpur India
+Dubai United Arab Emirates
+Incheon South Korea
+Coimbatore India
+Cali Colombia
+Ouagadougou Burkina Faso
+Lusaka Zambia
+Port Au Prince Haiti
+Algiers Algeria
+Manchester United Kingdom
+Depok Indonesia
+Handan China
+Taibei Taiwan
+Chicago United States
+Goiania Brazil
+Sapporo Japan
+Huaian China
+Weifang China
+Zibo China
+Bamako Mali
+Birmingham United Kingdom
+Thiruvananthapuram India
+Vancouver Canada
+Bandung Indonesia
+Pretoria South Africa
+Shaoxing China
+Yantai China
+Mbuji Mayi Dr Congo
+Huizhou China
+Tashkent Uzbekistan
+Accra Ghana
+Lubumbashi Dr Congo
+Toluca De Lerdo Mexico
+San Juan Puerto Rico
+Patna India
+Beirut Lebanon
+Brisbane Australia
+Damascus Syria
+Bhopal India
+Brazzaville Republic Of The Congo
+Luoyang China
+Tunis Tunisia
+Baku Azerbaijan
+Houston United States
+Tangerang Indonesia
+Medan Indonesia
+Belem Brazil
+Sendai Japan
+Mogadishu Somalia
+Nantong China
+Barranquilla Colombia
+Manaus Brazil
+Maracaibo Venezuela
+Taoyuan Taiwan
+Rawalpindi Pakistan
+Gujranwala Pakistan
+Agra India
+Peshawar Pakistan
+Daegu South Korea
+Baotou China
+Vadodara India
+Naples Italy
+Visakhapatnam India
+Kannur India
+Liuzhou China
+Hohhot China
+Amman Jordan
+Xuzhou China
+Havana Cuba
+Tijuana Mexico
+Esfahan Iran
+Hiroshima Japan
+Brussels Belgium
+Phnom Penh Cambodia
+Grande Vitoria Brazil
+Nashik India
+Mecca Saudi Arabia
+Perth Australia
+Vijayawada India
+Minsk Belarus
+Multan Pakistan
+Yangzhou China
+Bursa Turkey
+Baoding China
+Conakry Guinea
+Linyi Shandong China
+Taizhou Zhejiang China
+Vienna Austria
+Aleppo Syria
+Valencia Venezuela
+Putian China
+Almaty Kazakhstan
+Baixada Santista Brazil
+West Yorkshire United Kingdom
+Haikou China
+Rabat Morocco
+Rajkot India
+Quito Ecuador
+Wuhu Anhui China
+Semarang Indonesia
+Yancheng Jiangsu China
+Panama City Panama
+Daqing China
+La Paz Bolivia
+Ludhiana India
+Kollam India
+Hyderabad Pakistan
+Lome Togo
+Davao City Philippines
+Leon De Los Aldamas Mexico
+Lianyungang China
+Bucharest Romania
+Turin Italy
+Hamburg Germany
+Warsaw Poland
+Adana Turkey
+Budapest Hungary
+Zhuhai China
+Montevideo Uruguay
+Datong China
+Madurai India
+Benin City Nigeria
+Palembang Indonesia
+Lyon France
+Santa Cruz Bolivia
+Matola Mozambique
+Gaziantep Turkey
+Phoenix United States
+Meerut India
+Quanzhou China
+Jiangmen China
+Sharjah United Arab Emirates
+Glasgow United Kingdom
+Varanasi India
+Novosibirsk Russia
+Xiangyang China
+Shiraz Iran
+Raipur India
+Stockholm Sweden
+Mosul Iraq
+Anshan China
+Can Tho Vietnam
+La Laguna Mexico
+Tabriz Iran
+Cixi China
+Marseille France
+Auckland New Zealand
+Jilin China
+Jamshedpur India
+Philadelphia United States
+Srinagar India
+Ulaanbaatar Mongolia
+Makassar Indonesia
+Karaj Iran
+Yinchuan China
+San Antonio United States
+Cordoba Argentina
+Daejon South Korea
+Qiqihaer China
+Aurangabad India
+Muscat Oman
+Yichang China
+Calgary Canada
+Batam Indonesia
+Xining China
+Munich Germany
+Gaoxiong Taiwan
+Qinhuangdao China
+Rosario Argentina
+Harare Zimbabwe
+Hengyang China
+Gwangju South Korea
+Ciudad Juarez Mexico
+Monrovia Liberia
+Yekaterinburg Russia
+Tiruppur India
+Jining Shandong China
+Medina Saudi Arabia
+Grande Sao Luis Brazil
+Abu Dhabi United Arab Emirates
+Jodhpur India
+Edmonton Canada
+Anyang China
+Kananga Dr Congo
+Natal Brazil
+Jabalpur India
+San Diego United States
+Tegucigalpa Honduras
+Suqian China
+Ranchi India
+Huainan China
+Mandalay Myanmar
+Zhangjiakou China
+Asansol India
+Kharkiv Ukraine
+Chaozhou China
+Kathmandu Nepal
+N Djamena Chad
+Onitsha Nigeria
+San Jose Costa Rica
+Chon Buri Thailand
+Belgrade Serbia
+Zurich Switzerland
+Allahabad India
+Ottawa Canada
+Kota India
+Dallas United States
+Gwalior India
+Joao Pessoa Brazil
+Amritsar India
+Basra Iraq
+Taizhou Jiangsu China
+Copenhagen Denmark
+Queretaro Mexico
+Taian Shandong China
+Adelaide Australia
+Homs Syria
+Yiwu China
+Bucaramanga Colombia
+Dhanbad India
+Konya Turkey
+Maceio Brazil
+Taizhong Taiwan
+Nouakchott Mauritania
+Porto Portugal
+Suweon South Korea
+Samut Prakan Thailand
+Prague Czech Republic
+Helsinki Finland
+Weihai China
+Cochabamba Bolivia
+Joinville Brazil
+Hai Phong Vietnam
+Mombasa Kenya
+Niamey Niger
+Qom Iran
+Zhanjiang China
+Fushun Liaoning China
+Ganzhou China
+Sofia Bulgaria
+Zunyi China
+Dongying China
+Mianyang Sichuan China
+Kaifeng China
+Kazan Russia
+Rizhao China
+Kisangani Dr Congo
+Jiaxing China
+Nizhniy Novgorod Russia
+Nanchong China
+Bareilly India
+Antalya Turkey
+Port Elizabeth South Africa
+Ad Dammam Saudi Arabia
+Ahvaz Iran
+Shiyan China
+Florianopolis Brazil
+Dublin Ireland
+Chelyabinsk Russia
+Fes Morocco
+San Luis Potosi Mexico
+Barquisimeto Venezuela
+Pointe Noire Republic Of The Congo
+Yingkou China
+Aligarh India
+Mysore India
+Durg Bhilainagar India
+Pekan Baru Indonesia
+Maoming China
+Maracay Venezuela
+Freetown Sierra Leone
+Tanger Morocco
+Moradabad India
+Liuan China
+Tengzhou China
+Zhuzhou China
+Omsk Russia
+Zhenjiang Jiangsu China
+Mendoza Argentina
+Suzhou China
+Liuyang China
+Ruian China
+Chiang Mai Thailand
+Astana Kazakhstan
+Tripoli Libya
+Chifeng China
+Tiruchirappalli India
+Baoji China
+Samara Russia
+Bhubaneswar India
+Merida Mexico
+Puning China
+Pingdingshan Henan China
+Bogor Indonesia
+Benxi China
+Amsterdam Netherlands
+Chandigarh India
+Haifa Israel
+Jieyang China
+Jinzhou China
+Xiangtan Hunan China
+Nanyang Henan China
+Huaibei China
+Krasnoyarsk Russia
+Ufa Russia
+Rostov On Don Russia
+Uyo Nigeria
+Guilin China
+Kigali Rwanda
+Islamabad Pakistan
+Da Nang Vietnam
+Jinhua China
+Lilongwe Malawi
+Mexicali Mexico
+Mwanza Tanzania
+Cologne Germany
+Guwahati India
+Hubli Dharwad India
+Kaduna Nigeria
+Maputo Mozambique
+Aguascalientes Mexico
+San Salvador El Salvador
+Salem India
+Quetta Pakistan
+Bandar Lampung Indonesia
+Zaozhuang China
+Yerevan Armenia
+Binzhou China
+Yongin South Korea
+Aba Nigeria
+Xinxiang China
+Bukavu Dr Congo
+Tbilisi Georgia
+Liupanshui China
+Cuernavaca Mexico
+Perm Russia
+Goyang South Korea
+Voronezh Russia
+Managua Nicaragua
+Pizhou China
+Lille France
+Cartagena Colombia
+Yueqing China
+Shimkent Kazakhstan
+Tasikmalaya Indonesia
+Abomey Calavi Benin
+Changwon South Korea
+Chihuahua Mexico
+Saharanpur India
+Jalandhar India
+Panjin China
+Nnewi Nigeria
+Antwerp Belgium
+Oslo Norway
+Luohe China
+Diyarbakir Turkey
+Bishkek Kyrgyzstan
+Jingzhou Hubei China
+Wenling China
+Fuyang China
+San Jose United States
+Solapur India
+Shangrao China
+Kermanshah Iran
+Toulouse France
+Johor Bahru Malaysia
+Zhaoqing China
+Teresina Brazil
+Siliguri India
+Ma'anshan China
+Mersin Turkey
+Bien Hoa Vietnam
+Bujumbura Burundi
+Kirkuk Iraq
+Samarinda Indonesia
+Rotterdam Netherlands
+Yueyang China
+Aracaju Brazil
+Odesa Ukraine
+Volgograd Russia
+Marrakech Morocco
+Tampico Mexico
+Bazhong China
+Fuzhou Jiangxi China
+Hargeysa Somalia
+Huzhou China
+Austin United States
+Leshan China
+Denpasar Indonesia
+Dezhou China
+San Miguel De Tucuman Argentina
+Saltillo Mexico
+Valparaiso Chile
+Aden Yemen
+Padang Indonesia
+Cebu City Philippines
+Acapulco De Juarez Mexico
+Kayseri Turkey
+Bobo Dioulasso Burkina Faso
+Xiongan China
+Bordeaux France
+Xuchang China
+Songkhla Thailand
+Asmara Eritrea
+Nonthaburi Thailand
+Chenzhou China
+Warangal India
+Dnipro Ukraine
+Krasnodar Russia
+Khulna Bangladesh
+Ilorin Nigeria
+Jixi Heilongjiang China
+Morelia Mexico
+Sekondi Takoradi Ghana
+Cancun Mexico
+Seongnam South Korea
+Qujing China
+Nice France
+Changshu China
+Ikorodu Nigeria
+Xintai China
+Cucuta Colombia
+Blantyre Limbe Malawi
+Fort Worth United States
+Jerusalem Israel
+Pingxiang Jiangxi China
+Southampton United Kingdom
+Jacksonville United States
+Mudanjiang China
+Agadir Morocco
+Arequipa Peru
+Nyala Sudan
+Columbus United States
+Hamah Syria
+Tshikapa Dr Congo
+Dehradun India
+Veracruz Mexico
+Yichun Jiangxi China
+Ciudad Guayana Venezuela
+Zamboanga City Philippines
+Dushanbe Tajikistan
+Pathum Thani Thailand
+Jiujiang China
+Ulsan South Korea
+Laiwu China
+Rajshahi Bangladesh
+Donetsk Ukraine
+Charlotte United States
+San Pedro Sula Honduras
+Bengbu China
+Liverpool United Kingdom
+Oran Algeria
+Reynosa Mexico
+Villahermosa Mexico
+West Rand South Africa
+Campo Grande Brazil
+San Francisco United States
+Jos Nigeria
+Bergamo Italy
+Zhucheng China
+Guigang China
+Guiping China
+Yangjiang China
+Bangui Central African Republic
+Malang Indonesia
+Londrina Brazil
+La Plata Argentina
+Misratah Libya
+Antipolo Philippines
+Concepcion Chile
+Chengde China
+Dandong China
+Indianapolis United States
+Najaf Iraq
+Owerri Nigeria
+Zhangzhou China
+Tianmen China
+Hermosillo Mexico
+Trujillo Peru
+Bhiwandi India
+Linfen China
+Xinyu China
+Deyang China
+Hengshui China
+Warri Nigeria
+Liaoyang China
+Guntur India
+Soshanguve South Africa
+Sylhet Bangladesh
+Palermo Italy
+Leiyang China
+Tainan Taiwan
+Nampula Mozambique
+Tuxtla Gutierrez Mexico
+Erbil Iraq
+Changzhi China
+Ashgabat Turkmenistan
+Taiz Yemen
+Bahawalpur Pakistan
+Jiangyin China
+Tyumen Russia
+Saratov Russia
+Fuxin China
+Culiacan Mexico
+Hufuf Mubarraz Saudi Arabia
+Puducherry India
+Libreville Gabon
+Valencia Spain
+Bucheon South Korea
+Xingtai China
+Changde China
+Huangshi China
+Lubango Angola
+Shangqiu China
+Quebec City Canada
+Banghazi Libya
+Luzhou China
+Baishan China
+Firozabad India
+Winnipeg Canada
+Yibin China
+Ipoh Malaysia
+Liling China
+Thessaloniki Greece
+Newcastle Upon Tyne United Kingdom
+Bologna Italy
+Niigata Japan
+Xinyang China
+Heze China
+Yangquan China
+Barcelona Puerto La Cruz Venezuela
+Orumiyeh Iran
+Xinghua China
+Nottingham United Kingdom
+Maiduguri Nigeria
+Sorocaba Brazil
+Eskisehir Turkey
+Haicheng China
+Xiaogan China
+Seattle United States
+Yongzhou China
+Cabinda Angola
+Zhuji China
+Frankfurt Germany
+Xalapa Mexico
+Huludao China
+Bogra Bangladesh
+Vereeniging South Africa
+Nakhon Ratchasima Thailand
+Umuahia Nigeria
+Enugu Nigeria
+Bikaner India
+Krakow Poland
+Jiaozuo China
+Hamilton Canada
+Tianshui China
+Cherthala India
+Kuerle China
+Shaoguan China
+Liaocheng China
+Ansan South Korea
+Gorakhpur India
+Quzhou China
+Cagayan De Oro City Philippines
+Amravati India
+Huaihua China
+Nellore India
+Taixing China
+Dasmarinas Philippines
+Gebze Turkey
+Kumamoto Japan
+Bozhou China
+Cuttack India
+Langfang China
+Sulaimaniya Iraq
+Ar Rayyan Qatar
+Kunshan China
+Zigong China
+Bur Sa'id Egypt
+Zaporizhzhya Ukraine
+Qingyuan China
+Denver United States
+Jincheng China
+Banjarmasin Indonesia
+Zaragoza Spain
+Sheffield United Kingdom
+Zarqa Jordan
+Anqing China
+Zaria Nigeria
+Belgaum India
+Okayama Japan
+Lviv Ukraine
+Meishan China
+Sao Jose Dos Campos Brazil
+Washington United States
+Danyang China
+Cheongju South Korea
+Muzaffarnagar India
+Gaomi China
+Zhumadian China
+Jiamusi China
+Malegaon India
+Hanchuan China
+Benguela Angola
+Xianyang Shaanxi China
+Ribeirao Preto Brazil
+Oshogbo Nigeria
+Gaza Palestine
+Shaoyang China
+Mangalore India
+Rasht Iran
+Boston United States
+Linhai China
+Buffalo City South Africa
+Florence Italy
+Panzhihua China
+Erduosi Ordoss China
+Sialkot Pakistan
+Zanzibar Tanzania
+Oaxaca De Juarez Mexico
+Seville Spain
+Tongliao China
+Jammu India
+Bhavnagar India
+Tolyatti Russia
+Sargodha Pakistan
+Suining Sichuan China
+Gold Coast Australia
+The Hague Netherlands
+Tongling China
+Wuzhou China
+Kottayam India
+Yulin Shaanxi China
+Yanji China
+Kayamkulam India
+Maturin Venezuela
+Lokoja Nigeria
+Longyan China
+Cotonou Benin
+Nanded Waghala India
+Taif Saudi Arabia
+Uberlandia Brazil
+Bacoor Philippines
+Bristol United Kingdom
+Kitwe Zambia
+El Paso United States
+Zagreb Croatia
+Salta Argentina
+Padova Italy
+Vientiane Laos
+Dazhou China
+Anqiu China
+Bali Indonesia
+Celaya Mexico
+Cheonan South Korea
+Genoa Italy
+Tirupati India
+Bunia Dr Congo
+Yuyao China
+Yan'an China
+Jundiai Brazil
+Nantes France
+Liege Belgium
+Dongtai China
+Lodz Poland
+Durgapur India
+Yuncheng China
+Dengzhou China
+Nashville United States
+Gulbarga India
+Huambo Angola
+Al Hudaydah Yemen
+Buraydah Saudi Arabia
+Ezhou China
+Pontianak Indonesia
+Detroit United States
+Merca Somalia
+Mar Del Plata Argentina
+Akure Nigeria
+Kurnool India
+Malanje Angola
+Santiago Dominican Republic
+Portland United States
+Jeonju South Korea
+Yuxi China
+Las Vegas United States
+Tabuk Saudi Arabia
+Zhangjiagang China
+Lattakia Syria
+Amara Iraq
+Oklahoma City United States
+Taicang China
+Busto Arsizio Italy
+General Santos City Philippines
+Macao Macau
+Izhevsk Russia
+Zhoukou China
+Ibb Yemen
+Zhoushan China
+Memphis United States
+Neijiang China
+Denizli Turkey
+Jamnagar India
+Qinzhou China
+Jhansi India
+Samsun Turkey
+Chongjin North Korea
+Tamale Ghana
+Wroclaw Poland
+Doha Qatar
+Sokoto Nigeria
+Renqiu China
+Barnaul Russia
+Loudi China
+Hegang China
+Irkutsk Russia
+As Suways Egypt
+Bulawayo Zimbabwe
+Bijie China
+Be'er Sheva Israel
+Chiclayo Peru
+Venezia Italy
+Ankang China
+Erode India
+Manama Bahrain
+Goma Dr Congo
+Bokaro Steel City India
+Pachuca De Soto Mexico
+Khabarovsk Russia
+Stuttgart Germany
+Puyang China
+Duesseldorf Germany
+Longhai China
+Durango Mexico
+Riga Latvia
+Belfast United Kingdom
+Wuhai China
+Safaqis Tunisia
+Verona Italy
+Tongxiang China
+Jambi Indonesia
+Haimen China
+Hezhou China
+Sanya China
+Ulyanovsk Russia
+Louisville United States
+Raurkela India
+Bari Italy
+Seregno Italy
+Kolhapur India
+Kryvyi Rih Ukraine
+Nasiriyah Iraq
+Yulin Guangxi China
+Ajmer India
+Bacolod Philippines
+Geneva Switzerland
+Colombo Sri Lanka
+Yaroslavl Russia
+Kuching Malaysia
+Al Ain United Arab Emirates
+Gothenburg Sweden
+Zahedan Iran
+Vladivostok Russia
+San Jose Del Monte Philippines
+Ujjain India
+Brighton United Kingdom
+Bandar Abbas Iran
+Jubayl Saudi Arabia
+Herat Afghanistan
+Hanzhong China
+Miluo China
+Hillah Iraq
+Feira De Santana Brazil
+Anshun China
+Bilaspur India
+Makhachkala Russia
+Bissau Guinea Bissau
+Jinzhong China
+Patiala India
+Yichun Heilongjiang China
+Bauchi Nigeria
+Tlaxcala Mexico
+Tomsk Russia
+Skopje Macedonia
+Siping China
+Nay Pyi Taw Myanmar
+Sihui China
+Leipzig Germany
+Kagoshima Japan
+Kingston Jamaica
+Sanliurfa Turkey
+Baltimore United States
+Malaga Spain
+Uvira Dr Congo
+Dortmund Germany
+Comilla Bangladesh
+Cuiaba Brazil
+Xiantao China
+Mathura India
+Enshi China
+Ibague Colombia
+Catania Italy
+Milwaukee United States
+Shishi China
+Fuqing China
+Sangli India
+Essen Germany
+Pereira Colombia
+Calabar Nigeria
+Toulon France
+Qitaihe China
+Samarkand Uzbekistan
+Daye China
+Samut Sakhon Thailand
+Cabimas Venezuela
+Hamadan Iran
+Jingjiang China
+Sanhe China
+Djibouti Djibouti
+Xinmi China
+Imphal India
+Juiz De Fora Brazil
+Dresden Germany
+Agartala India
+Tonghua China
+Abakaliki Nigeria
+Bouake Ivory Coast
+Udon Thani Thailand
+Beira Mozambique
+Udaipur India
+Vellore India
+Orenburg Russia
+Anyang South Korea
+Ardabil Iran
+Likasi Dr Congo
+Bloemfontein South Africa
+Dongyang China
+Mbeya Tanzania
+Hebi China
+Kemerovo Russia
+Tirunelveli India
+Cenxi China
+Yazd Iran
+Bremen Germany
+Gaya India
+Poza Rica De Hidalgo Mexico
+Jalgaon India
+Shuozhou China
+Santa Fe Argentina
+Matamoros Mexico
+Kitchener Canada
+Zaoyang China
+Sanmenxia China
+Albuquerque United States
+Cangzhou China
+Thoothukkudi India
+Xinyi China
+Basel Switzerland
+Yiyang Hunan China
+Oujda Morocco
+Gomel Belarus
+Irbid Jordan
+Al Mansurah Egypt
+Karbala Iraq
+Tucson United States
+Meknes Morocco
+Weinan China
+Leicester United Kingdom
+Jiaozhou China
+Ogbomosho Nigeria
+Feicheng China
+Arak Iran
+Novokuznetsk Russia
+Zhaodong China
+Chiang Rai Thailand
+Kota Kinabalu Malaysia
+Hamhung North Korea
+Panipat India
+Khamis Mushayt Saudi Arabia
+Kahramanmaras Turkey
+Tongchuan China
+Tepic Mexico
+Utrecht Netherlands
+Shouguang China
+Port Of Spain Trinidad And Tobago
+Villavicencio Colombia
+Rajahmundry India
+Ndola Zambia
+Kerman Iran
+Dengfeng China
+Ryazan Russia
+Sakarya Turkey
+Guangyuan China
+Chaoyang China
+Vilnius Lithuania
+Fresno United States
+Rayong Thailand
+Gaozhou China
+Hannover Germany
+San Juan Argentina
+Edinburgh United Kingdom
+Cuito Angola
+Astrakhan Russia
+Naberezhnye Tchelny Russia
+Sukkur Pakistan
+Larkana Pakistan
+Valledupar Colombia
+Bamenda Cameroon
+Basilan City Philippines
+Abeokuta Nigeria
+Mazar E Sharif Afghanistan
+Poznan Poland
+Namangan Uzbekistan
+Imus Philippines
+Grenoble France
+Mesa United States
+Haining China
+Santa Marta Colombia
+Surakarta Indonesia
+Pietermaritzburg South Africa
+Yongkang China
+Pingdu China
+Taishan China
+Calamba Philippines
+Mekele Ethiopia
+Heyuan China
+Atlanta United States
+Ar Rusayfah Jordan
+Penza Russia
+Utsunomiya Japan
+Chuzhou China
+Sacramento United States
+Vale Do Aco Brazil
+Al Raqqa Syria
+Bellary India
+Longkou China
+Qingzhou China
+Kalasin Thailand
+Al Mahallah Al Kubra Egypt
+Sheikhupura Pakistan
+Cuautla Morelos Mexico
+Puerto Vallarta Mexico
+Duisburg Germany
+Balashikha Russia
+Dali China
+Shizuishan China
+Kakinada India
+Ambon Indonesia
+Diwaniyah Iraq
+Songyuan China
+Kirov Russia
+Nurenberg Germany
+Davanagere India
+Qianjiang China
+Gongyi China
+Van Turkey
+Shangyu China
+Uige Angola
+Porto Velho Brazil
+Changning China
+Matsuyama Japan
+Angeles City Philippines
+Rustenburg South Africa
+Gombe Nigeria
+Londonca Canada
+Gaoyou China
+Yanshi China
+Kikwit Dr Congo
+Lipetsk Russia
+Al Mukalla Yemen
+Cheboksary Russia
+Bournemouth United Kingdom
+Kansas City United States
+Laixi China
+Mataram Indonesia
+Karaganda Kazakhstan
+Muzaffarpur India
+El Djelfa Algeria
+Nakhon Pathom Thailand
+Shuangyashan China
+Kuantan Malaysia
+Khon Kaen Thailand
+Tanta Egypt
+Chuxiong China
+Douai Lens France
+Ziyang China
