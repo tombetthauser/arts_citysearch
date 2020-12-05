@@ -30,7 +30,19 @@ class Bot:
     self.google()
     self.writestop()
     self.quit()
+    # print(self.isartpage("<body><p>Welcome to DRAMA!</p><a href='#'>click for science</a><p>hello again!</p><a href='#'>click for drama</a><p>goodbye!</p></body>"))
     # self.removelinks("<body><p>hello!</p><a href='#'>click</a><p>hello again!</p><a href='#'>click again</a><p>goodbye!</p></body>")
+
+  def isartpage(self):
+    source = self.driver.page_source
+    # a_string = "A string is more than its parts!"
+    str = self.removelinks(source.lower())
+    badwords = ["science", "drama", "theatre", "biology"]
+
+    if any(x in str for x in badwords):
+    # if "science" in str or "drama" in str:
+      return False
+    return True
 
   def removelinks(self, urlstring):
     split = urlstring.split("<a")
@@ -208,7 +220,8 @@ class Bot:
         self.driver.get(url)
         self.filter()
         self.sleep()
-        self.emails()
+        if self.isartpage():
+          self.emails()
         self.getlinks2(2)
       except:
         print("url / href is None")
@@ -230,7 +243,8 @@ class Bot:
         self.driver.get(url)
         self.filter()
         self.sleep()
-        self.emails()
+        if self.isartpage():
+          self.emails()
         self.getlinks2(3)
       except:
         print("url / href is None")
@@ -252,7 +266,8 @@ class Bot:
         self.driver.get(url)
         self.filter()
         self.sleep()
-        self.emails()
+        if self.isartpage():
+          self.emails()
       except:
         print("url / href is None")
     print('self.stack3 empty')
