@@ -8,7 +8,7 @@ import re
 class Bot:
   def __init__(self):
     print(chr(27) + "[2J")
-    print("Initiating new Bot... 🐬\n")
+    print("Initiating new Bot...\n")
     self.start = self.printtime()
     self.path = "./chromedriver"
     self.input = 'schools.txt'
@@ -115,7 +115,7 @@ class Bot:
     print("closing self.set ✓\n")
 
   def check(self):
-    print("\nrunning self.check()... 🌀")
+    print("\nrunning self.check()...")
     print(len(self.stack), 'items left in self.stack')
     print(len(self.searches), 'items left in self.searches')
     if len(self.stack) > 0:
@@ -268,7 +268,7 @@ class Bot:
       except:
         print("url / href is None")
     print('self.stack3 empty')
-    print('\nall stacks empty 📂')
+    print('\nall stacks empty')
     self.check()
     print("\nclosing self.unstack ✓\n")
 
@@ -288,7 +288,7 @@ class Bot:
       self.empty()
     self.printtime()
     print("started at ----> ", self.start.strftime("%H:%M:%S"))
-    print("running quit()... all done! 👍")
+    print("running quit()... all done!")
     self.driver.quit()
 
   def printtime(self):
